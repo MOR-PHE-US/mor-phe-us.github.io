@@ -13,12 +13,13 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "MOR-PHE-US/mor-phe-us.github.io",
 
   docsDir: "src",
 
   // 打印按钮
   print: false,
+
   // 全屏按钮
   fullscreen: true,
 
@@ -29,7 +30,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "Morpheus",
   displayFooter: true,
 
   // 博客相关
