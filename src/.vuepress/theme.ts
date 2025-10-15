@@ -4,14 +4,14 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://mor-phe-us.github.io",
 
   author: {
     name: "Morpheus",
-    url: "https://mister-hope.com",
+    url: "https://github.com/MOR-PHE-US",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://s3.bmp.ovh/imgs/2025/10/15/53a2dd8eec9f8f09.png",
 
   repo: "MOR-PHE-US/mor-phe-us.github.io",
 
@@ -21,7 +21,7 @@ export default hopeTheme({
   print: false,
 
   // 全屏按钮
-  fullscreen: true,
+  fullscreen: false,
 
   // 导航栏
   navbar,
@@ -96,19 +96,39 @@ export default hopeTheme({
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
+    // 思维导图
+    markmap: true,
+    // 流程图
+    flowchart: true,
+    // 自定义对齐
     align: true,
-    attrs: true,
+    // 属性自定义支持
+    attrs: false,
+    // 代码选项卡支持
     codeTabs: true,
+    // 选项卡支持
+    tabs: true,
+    // vuepress 组件支持
     component: true,
+    // 支持代码演示
     demo: true,
+    // 图片展示上下文
     figure: true,
+    // 使 Markdown 行为与 GitHub 保持一致
     gfm: true,
+    // 启用图片懒加载
     imgLazyload: true,
+    // 启用图片大小
     imgSize: true,
+    // 使用 <!-- @include: filename --> 导入文件
     include: true,
+    // 高亮支持
     mark: true,
+    // 支持Plantuml语法
     plantuml: true,
+    // 添加剧透文字
     spoiler: true,
+    // 创建行内 snippet，对内联标记进行样式化，包括更改标签、添加属性和修改内容
     stylize: [
       {
         matcher: "Recommended",
@@ -122,13 +142,14 @@ export default hopeTheme({
         },
       },
     ],
+    // 启用下角标
     sub: true,
+    // 启用上角标
     sup: true,
-    tabs: true,
+    // 支持任务列表
     tasklist: true,
-    vPre: true,
 
-    // 取消注释它们如果你需要 TeX 支持
+    // 取消注释它们如果你需要数学公式 TeX 支持
     // math: {
     //   // 启用前安装 katex
     //   type: "katex",
@@ -148,9 +169,6 @@ export default hopeTheme({
 
     // 在启用之前安装 echarts
     // echarts: true,
-
-    // 在启用之前安装 flowchart.ts
-    // flowchart: true,
 
     // 在启用之前安装 mermaid
     // mermaid: true,

@@ -12,6 +12,10 @@
   },
   "devDependencies": {
     "@vuepress/bundler-webpack": "2.0.0-rc.24",
+    "flowchart.ts": "^3.0.1",
+    "markmap-lib": "^0.18.12",
+    "markmap-toolbar": "^0.18.12",
+    "markmap-view": "^0.18.12",
     "sass-embedded": "^1.93.2",
     "sass-loader": "^16.0.5",
     "vue": "^3.5.22",
@@ -22,5 +26,8 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "@vuepress/plugin-revealjs": "2.0.0-rc.47"
   }
 }
