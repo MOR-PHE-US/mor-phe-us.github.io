@@ -1,8 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import { cut } from 'nodejs-jieba';
 
 export default hopeTheme({
   hostname: "https://mor-phe-us.github.io",
@@ -206,14 +204,10 @@ export default hopeTheme({
       prefix: "fa6-solid:",
     },
     // 搜索框
-    slimsearch: {
-      indexContent: true,
-      indexOptions: {
-        // 使用 nodejs-jieba 进行分词
-        tokenize: (text, fieldName) =>
-          fieldName === "id" ? [text] : cut(text, true),
-      },
-      suggestion: true,
+    docsearch: {
+      appId: "TKB1IL9WWY",
+      apiKey: "3be73cbcd7e72aac1e83265ec1ce415e",
+      indexName: "suidx_com_tkb1il9wwy_pages",
     },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
