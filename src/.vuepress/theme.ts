@@ -205,9 +205,9 @@ export default hopeTheme({
     },
     // 搜索框
     docsearch: {
-      appId: "TKB1IL9WWY",
-      apiKey: "3be73cbcd7e72aac1e83265ec1ce415e",
-      indexName: "suidx_com_tkb1il9wwy_pages",
+      appId: "AD6IKD9A9L",
+      apiKey: "82b63237fc546d1c62c08f5dbd96d0d9",
+      indexName: "suidx_com_ad6ikd9a9l_pages",
     },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
