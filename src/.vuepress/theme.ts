@@ -194,7 +194,7 @@ export default hopeTheme({
       repo: "MOR-PHE-US/mor-phe-us.github.io",
       repoId: "R_kgDOQCZfEg",
       category: "Announcements",
-      categoryId:"DIC_kwDOQCZfEs4Cwqs_",
+      categoryId: "DIC_kwDOQCZfEs4Cwqs_",
     },
     components: {
       components: ["Badge", "VPCard"],
@@ -205,7 +205,9 @@ export default hopeTheme({
       prefix: "fa6-solid:",
     },
     // 搜索框
-    slimsearch: true,
+    slimsearch: {
+      indexContent: true,
+    },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
