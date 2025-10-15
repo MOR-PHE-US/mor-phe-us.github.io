@@ -1,7 +1,9 @@
 ---
 title: Markdown 展示
-icon: fa6-brands:markdown
-order: 2
+icon: markdown
+date: 2021-01-05
+order: 1
+cover: /assets/images/cover2.jpg
 category:
   - 使用指南
 tag:

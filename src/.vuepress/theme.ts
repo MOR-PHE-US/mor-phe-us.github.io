@@ -150,12 +150,12 @@ export default hopeTheme({
     tasklist: true,
 
     // 取消注释它们如果你需要数学公式 TeX 支持
-    // math: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
-    // },
+    math: {
+      // 启用前安装 katex
+      type: "katex",
+      // 或者安装 mathjax-full
+      // type: "mathjax",
+    },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
     // revealjs: {
@@ -188,13 +188,14 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    // 启用之前需安装 @waline/client
-    // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
-
+    // 评论区
+    comment: {
+      provider: "Giscus",
+      repo: "MOR-PHE-US/mor-phe-us.github.io",
+      repoId: "R_kgDOQCZfEg",
+      category: "Announcements",
+      categoryId:"DIC_kwDOQCZfEs4Cwqs_",
+    },
     components: {
       components: ["Badge", "VPCard"],
     },

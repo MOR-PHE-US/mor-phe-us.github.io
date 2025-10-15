@@ -14,6 +14,7 @@
     "@vuepress/bundler-webpack": "2.0.0-rc.24",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.112",
     "flowchart.ts": "^3.0.1",
+    "markdown-it-pangu": "^1.0.2",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",

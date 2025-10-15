@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-
+import panguPlugin from "markdown-it-pangu";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -26,6 +26,10 @@ export default defineUserConfig({
       },
     ],
   ],
+  // 中英文自动空格
+  extendsMarkdown: (md) => {
+    md.use(panguPlugin);
+  },
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
