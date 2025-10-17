@@ -24,7 +24,10 @@ export default hopeTheme({
 
   // 导航栏
   navbar,
-
+  navbarLayout: { 
+    start: ["Brand"],
+     center: ["Search"],
+    end: ["Links","Outlook", "Repo"] },
   // 侧边栏
   sidebar,
 
@@ -201,7 +204,6 @@ export default hopeTheme({
 
     icon: {
       assets: "fontawesome",
-      prefix: "fa6-solid:",
     },
     // 搜索框
     docsearch: {

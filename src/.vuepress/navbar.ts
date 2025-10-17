@@ -1,11 +1,11 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  // {
-  //   text: "首页",
-  //   icon: "home",
-  //   link: "/",
-  // },
+  {
+    text: "导航",
+    icon: "window-maximize",
+    link: "/collection/websites",
+  },
   // {
   //   text: "主要功能与配置演示",
   //   icon: "laptop-code",

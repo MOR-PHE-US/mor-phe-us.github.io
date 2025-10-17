@@ -4,6 +4,7 @@ icon: grip
 index: false
 breadcrumb: false
 lastUpdated: false
+date: 2019-08-07
 ---
 
 
@@ -86,20 +87,3 @@ link: https://bbs.pcbeta.com/viewthread-1972024-1-1.html
 background: rgba(249, 252, 253, 1)
 ```
 
-# 网站
-
-```component VPCard
-title: JETBRA.IN CHECKER | IPFS
-desc: Jetbrains系列激活
-logo: https://img.icons8.com/?size=1200&id=jUw5rFZE2a5d&format=jpg
-link: https://3.jetbra.in
-background: rgba(249, 252, 253, 1)
-```
-
-```component VPCard
-title: RealFaviconGenerator
-desc: 网站图标生成器
-logo: https://realfavicongenerator.net/assets/images/logo.png
-link: https://realfavicongenerator.net/
-background: rgba(249, 252, 253, 1)
-```
