@@ -10,8 +10,8 @@ export default hopeTheme({
     url: "https://github.com/MOR-PHE-US",
   },
 
-  logo: "https://s3.bmp.ovh/imgs/2025/10/15/53a2dd8eec9f8f09.png",
-
+  // logo: "https://s3.bmp.ovh/imgs/2025/10/15/53a2dd8eec9f8f09.png",
+  logo: "https://mor-phe-us.github.io/logo.svg",
   repo: "MOR-PHE-US/mor-phe-us.github.io",
 
   docsDir: "src",
@@ -24,13 +24,14 @@ export default hopeTheme({
 
   // 导航栏
   navbar,
-  navbarLayout: { 
+  navbarTitle: "",
+  navbarLayout: {
     start: ["Brand"],
-     center: ["Search"],
-    end: ["Links","Outlook", "Repo"] },
+    center: ["Search"],
+    end: ["Links", "Outlook", "Repo"],
+  },
   // 侧边栏
-  sidebar,
-
+  sidebar:{SidebarSorter:["readme", "order", "title", "filename"]},
   // 页脚
   footer: "Morpheus",
   displayFooter: true,

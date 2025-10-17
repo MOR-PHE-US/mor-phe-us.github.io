@@ -112,7 +112,7 @@ $$
 ```component VPCard
 title: Morpheus
 desc: Where there is dream, there is hope
-logo: https://s3.bmp.ovh/imgs/2025/10/15/53a2dd8eec9f8f09.png
+logo: https://mor-phe-us.github.io/logo.svg
 link: https://mor-phe-us.github.io/
 background: rgba(253, 230, 138, 0.15)
 ```
