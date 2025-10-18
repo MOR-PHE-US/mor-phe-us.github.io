@@ -31,7 +31,7 @@ export default hopeTheme({
     end: ["Links", "Outlook", "Repo"],
   },
   // 侧边栏
-  sidebar:{SidebarSorter:["readme", "order", "title", "filename"]},
+  sidebar,
   // 页脚
   footer: "Morpheus",
   displayFooter: true,
