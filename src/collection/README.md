@@ -64,14 +64,6 @@ background: rgba(249, 252, 253, 1)
 ```
 
 ```component VPCard
-title: PowerToys
-desc: 微软出品，自定义Windows和简化日常任务。
-logo: https://s3.bmp.ovh/imgs/2025/10/15/5d046f8f5d086cc9.png
-link: https://github.com/microsoft/PowerToys/releases
-background: rgba(249, 252, 253, 1)
-```
-
-```component VPCard
 title: Thunderbird
 desc: Mozilla 出品的收件箱
 logo: https://www.thunderbird.net/media/img/thunderbird/favicon.ico
@@ -92,5 +84,20 @@ title: 图吧工具箱
 desc: 图吧工具箱
 logo: https://www.tbtool.cn/resource/icon.ico
 link: https://www.tbtool.cn/
+background: rgba(249, 252, 253, 1)
+```
+
+```component VPCard
+title: Iterm2-color-schemes
+desc: 各种系统的终端主题
+link: https://github.com/mbadolato/iTerm2-Color-Schemes
+background: rgba(249, 252, 253, 1)
+```
+
+```component VPCard
+title: PowerToys
+desc: 微软出品，自定义Windows和简化日常任务。
+logo: https://s3.bmp.ovh/imgs/2025/10/15/5d046f8f5d086cc9.png
+link: https://github.com/microsoft/PowerToys/releases
 background: rgba(249, 252, 253, 1)
 ```

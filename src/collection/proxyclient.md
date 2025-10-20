@@ -66,5 +66,3 @@ IOS小白推荐小火箭、想捣鼓的用QuantumultX去广告；想要免费就
 | OpenClash                                                    | 路由器              | SS/SSR/Trojan/Vmess                           |
 | padavan固件                                                  | 路由器              | SS/SSR/Vmess                                  |
 | homeproxy                                                    | 路由器              | SS/SSR/Vmess                                  |
-
-![](https://jichangtuijian.com/uploads/vpn/1.webp)
