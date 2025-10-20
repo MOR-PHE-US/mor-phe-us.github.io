@@ -84,7 +84,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/collection/proxyclient.html": {
-        hint: "请输入密码",
+        hint: "内容被加密",
         password: process.env.PASSWORD!,
       },
     },
