@@ -87,3 +87,10 @@ link: https://bbs.pcbeta.com/viewthread-1972024-1-1.html
 background: rgba(249, 252, 253, 1)
 ```
 
+```component VPCard
+title: 图吧工具箱
+desc: 图吧工具箱
+logo: https://www.tbtool.cn/resource/icon.ico
+link: https://www.tbtool.cn/
+background: rgba(249, 252, 253, 1)
+```

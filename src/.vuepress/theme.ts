@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import "dotenv/config";
 
 export default hopeTheme({
   hostname: "https://mor-phe-us.github.io",
@@ -82,9 +83,9 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+      "/collection/proxyclient.html": {
+        hint: "请输入密码",
+        password: process.env.PASSWORD!,
       },
     },
   },

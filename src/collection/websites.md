@@ -146,4 +146,11 @@ background= "rgba(249, 252, 253, 1)"
     link= "https://realfavicongenerator.net/"
     background="rgba(253, 230, 138, 0.15)"
   />
+            <VPCard
+    title= "Image Hosting"
+    desc= "16图床，永久免费，无需登录的图床"
+    logo= "https://111666.best/favicon.ico"
+    link= "https://111666.best/"
+    background="rgba(253, 230, 138, 0.15)"
+  />
 </div>
