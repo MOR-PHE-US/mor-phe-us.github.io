@@ -19,6 +19,6 @@ lastUpdated: false
 irm https://get.activated.win | iex
 ```
 
-# HEU KMS Activator
+# HEU KMS Activator（推荐）
 
 从GitHub下载HEU8的[激活工具](https://github.com/zbezj/HEU_KMS_Activator)
