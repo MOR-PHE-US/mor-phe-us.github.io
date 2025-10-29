@@ -1,5 +1,5 @@
 ---
-title: 代理软件整理
+title: 代理软件搜集
 icon: paper-plane
 tag:
   - 代理
