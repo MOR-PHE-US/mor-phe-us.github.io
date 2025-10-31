@@ -74,6 +74,6 @@ date: 2022-07-04
     <VPCard title= "JETBRA.IN CHECKER | IPFS" desc= "Jetbrains系列激活" logo= "https://img.icons8.com/?size=1200&id=jUw5rFZE2a5d&format=jpg" link= "https://3.jetbra.in" background= "rgba(249, 252, 253, 1)" />
     <VPCard title= "RealFaviconGenerator" desc= "网站图标生成器" logo= "https://realfavicongenerator.net/assets/images/logo.png" link= "https://realfavicongenerator.net/" background="rgba(249, 252, 253, 1)" />
     <VPCard title= "Image Hosting" desc= "16图床，永久免费，无需登录的图床" logo= "https://111666.best/favicon.ico" link= "https://111666.best/" background="rgba(249, 252, 253, 1)" />
-    <VPCard title="https://www.ossnav.com/" desc="开源精选：探索免费优质的开源软件工具，尽享数字自由 " logo="https://www.ossnav.com/wp-content/uploads/2024/11/1732557264-open-64.png" link="https://www.ossnav.com/" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="ossnav" desc="开源精选：探索免费优质的开源软件工具，尽享数字自由 " logo="https://www.ossnav.com/wp-content/uploads/2024/11/1732557264-open-64.png" link="https://www.ossnav.com/" background="rgba(249, 252, 253, 1)" />
 </div>
 
