@@ -32,6 +32,7 @@ date: 2022-07-04
     <VPCard title="Uigradients" desc="渐变色" logo="https://uigradients.com/static/images/favicon-16x16.png" link="https://uigradients.com" background="rgba(249, 252, 253, 1)" />
     <VPCard title="Adobe Color" desc="Adobe Color" logo="https://color.adobe.com/favicon.ico" link="https://color.adobe.com/zh/create/color-wheel" background="rgba(249, 252, 253, 1)" />
     <VPCard title="Iconfont" desc="阿里巴巴矢量图标库" logo="https://img.alicdn.com/imgextra/i4/O1CN01XZe8pH1USpiUNT1QN_!!6000000002517-2-tps-114-114.png" link="https://www.iconfont.cn/" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="Font Awesome" desc="Find the Perfect Icon for Your Project" logo="https://fontawesome.com/favicon.ico" link="https://fontawesome.com/search?ic=free&o=r" background="rgba(249, 252, 253, 1)" />
 </div>
 
 ## GitHub 优质项目
@@ -76,4 +77,3 @@ date: 2022-07-04
     <VPCard title= "Image Hosting" desc= "16图床，永久免费，无需登录的图床" logo= "https://111666.best/favicon.ico" link= "https://111666.best/" background="rgba(249, 252, 253, 1)" />
     <VPCard title="ossnav" desc="开源精选：探索免费优质的开源软件工具，尽享数字自由 " logo="https://www.ossnav.com/wp-content/uploads/2024/11/1732557264-open-64.png" link="https://www.ossnav.com/" background="rgba(249, 252, 253, 1)" />
 </div>
-

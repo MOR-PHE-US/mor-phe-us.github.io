@@ -78,3 +78,28 @@ fastboot reboot-bootloader
 ```
 
 :::
+
+## 刷机步骤
+
+::: tab
+
+@tab:active 全新刷写
+
+1. 下载需要的`ROM`、`Firmware`、谷歌套件如`Nikgapps`（可选）
+2. 重启到`recovery`
+3. 刷入`Firmware`
+4. 擦除 Dalvik/Art Cache,cache,FRP,metadata（四清）
+5. 刷入ROM（如`crDroidAndroid-**-**-**-**.zip`）并重新启动到`recovery`
+6. 刷入`Nikgapps`（可选）
+7. 格式化data,输入“`yes`”并重新启动到系统
+
+@tab 升级刷写
+
+1. 下载需要的`ROM`、谷歌套件如`Nikgapps`（可选）
+2. 重启到`recovery`
+3. 刷入`ROM`并重新启动到`recovery`
+4. 刷入`Nikgapps`（可选）
+5. 擦除 Dalvik/Art Cache,Cache（双清）
+6. 格式化data,输入“`yes`”并重新启动到系统
+
+:::
