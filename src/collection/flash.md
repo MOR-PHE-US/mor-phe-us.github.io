@@ -19,9 +19,17 @@ lastUpdated: false
 
 [下载链接](https://xiaomirom.com/)
 
-# 原生ROM
+# 常见原生ROM
+
+[Lineageos](https://download.lineageos.org/changes)
 
 [crDroid](https://crdroid.net/)
+
+[Project Infinity X](https://projectinfinity-x.com/)
+
+[LibreMobileOS](get.libremobileos.com)
+
+[Evolution X](https://evolution-x.org/)
 
 # Fastboot常用命令
 
