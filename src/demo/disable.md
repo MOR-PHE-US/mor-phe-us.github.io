@@ -2,10 +2,6 @@
 title: 布局与功能禁用
 icon: gears
 order: 2
-category:
-  - 使用指南
-tag:
-  - 禁用
 date: 2021-01-03
 navbar: false
 sidebar: false
