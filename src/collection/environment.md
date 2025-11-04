@@ -29,15 +29,15 @@ lastUpdated: false
 
 [nvm下载](https://www.nvmnode.com/guide/download.html#latest-release)
 
-::: tip %NVM_HOME% 【nvm环境变量】
+::: tip `%NVM_HOME%` 【nvm环境变量】
 
 `[\path\to]\nvm`
 
-::: tip %NVM_SYMLINK% 【node环境变量】
+::: tip `%NVM_SYMLINK%` 【node环境变量】
 
 `[\path\to]\nvm\nodejs`
 
-::: tip %NODE_PATH%【npm环境变量】
+::: tip `%NODE_PATH%`【npm环境变量】
 
 `[\path\to]\nvm\nodejs\node_global`
 
@@ -111,7 +111,7 @@ Windows embeddable package：缺失很多东西，不应作为环境配置
 
 [企业版下载](https://www.oracle.com/cn/java/technologies/downloads/)【需要登陆账号】
 
-::: tip %JAVA_HOME%【系统变量】
+::: tip `%JAVA_HOME%`【系统变量】
 
 `[\path\to]\jdk`
 
