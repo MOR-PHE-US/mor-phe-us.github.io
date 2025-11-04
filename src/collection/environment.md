@@ -119,3 +119,10 @@ Windows embeddable package：缺失很多东西，不应作为环境配置
 
 `%JAVA_HOME%\bin`
 
+@tab Git
+
+::: tip 生成SSH公钥
+
+```bash
+ssh-keygen -t rsa
+```
