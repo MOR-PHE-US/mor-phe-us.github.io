@@ -81,7 +81,7 @@ fastboot reboot-bootloader
 
 ## 刷机步骤
 
-::: tab
+::: tabs
 
 @tab:active 全新刷写
 
