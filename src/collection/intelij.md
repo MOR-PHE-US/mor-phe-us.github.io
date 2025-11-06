@@ -28,7 +28,8 @@ date: 2022-11-25
 
 @tab 4.复制激活码
 
-[![点击图片进入](/assets/images/intellij/3.jetbra.in.png)](https://3.jetbra.in/)
+<iframe src="https://3.jetbra.in/" frameborder="0" style="width:100%;height:100vh;"/>
+
 
 @tab 5.粘贴激活码
 
