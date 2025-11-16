@@ -4,7 +4,7 @@ export default navbar([
   {
     text: "导航",
     icon: "window-maximize",
-    link: "/collection/websites",
+    link: "/collection",
   },
 
 ]);
