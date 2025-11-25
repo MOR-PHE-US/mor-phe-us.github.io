@@ -27,7 +27,7 @@ lastUpdated: false
 
 [Project Infinity X](https://projectinfinity-x.com/)
 
-[LibreMobileOS](get.libremobileos.com)
+[LibreMobileOS](https://get.libremobileos.com)
 
 [Evolution X](https://evolution-x.org/)
 

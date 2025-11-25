@@ -1,5 +1,5 @@
 ---
-title: 实用网站搜集
+title: 冲浪冲浪
 icon: grip
 index: false
 breadcrumb: false

@@ -9,10 +9,8 @@ lastUpdated: false
 
 ::: tip 提示
 
-当前各个系统代理软件客户端，包括windows,mac,ios,安卓和linux系统，路由器的代理软件。主要是包括clash家族的还有xray和singbox家族。最壮大的应该就是clash家族的。桌面端使用较多。ios一般入门都是使用小火箭Shadowrocket。安卓大部分人使用clash for android。很多桌面端的clash gui都有linux版本。
-要说各系统推荐什么，建议自己一个个试试，喜欢哪个留哪个：
-windows、mac和安卓都推荐clash系列的。小白推荐使用hiddify
-IOS小白推荐小火箭、想捣鼓的用QuantumultX去广告；想要免费就推荐使用Potatso、streisand和karing
+整理网上常见的代理软件以及搜集一些代理常用的知识点。
+测速：https://lg.bagevm.net/
 
 :::
 
@@ -66,3 +64,34 @@ IOS小白推荐小火箭、想捣鼓的用QuantumultX去广告；想要免费就
 | OpenClash                                                    | 路由器              | SS/SSR/Trojan/Vmess                           |
 | padavan固件                                                  | 路由器              | SS/SSR/Vmess                                  |
 | homeproxy                                                    | 路由器              | SS/SSR/Vmess                                  |
+
+## VPS服务器商
+
+<div class="vp-card-container">
+    <VPCard title="Lamhosting" desc="日本、台湾、香港、美国" logo="https://lamhosting.com/favicon.ico" link="https://lamhosting.com/index.php" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="OrangeVPS" desc="新加坡、美国、香港" logo="https://portal.orangevps.com/templates/kohost/img/favicon.png" link="https://portal.orangevps.com/store/vps-budget?language=chinese&currency=4" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="BageVM" desc="美国、香港、新加坡、日本、英国、德国、台湾" logo="https://www.bagevm.com/templates/bagevm/assets/img/favicon.ico" link="https://www.bagevm.com/index.php?rp=/store/los-angeles-servers" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="ZgoCloud" desc="香港、美国、德国、日本" logo="https://clients.zgovps.com/templates/2019/dist/images/favicon.ico" link="https://clients.zgovps.com/index.php?/products/" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="JuHost" desc="香港、日本" logo="https://members.juhost.com/favicon.ico" link="https://members.juhost.com/index.php" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="TOTHOST" desc="越南" logo="https://billing.tothost.vn/favicon.ico" link="https://billing.tothost.vn/index.php" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="DesiVPS" desc="印度、美国、荷兰" logo="https://www.desivps.com/assets/img/favicon.ico" link="https://www.desivps.com/index.html" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="CloudCone" desc="美国" logo="https://cloudcone.com/wp-content/uploads/2017/06/cropped-logo-2-32x32.png" link="https://cloudcone.com/" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="LegendVPS" desc="新加坡、美国" logo="https://legendvps.com/assets/img/logo.png" link="https://legendvps.com/store/sg-lite" background="rgba(249, 252, 253, 1)" />
+    <VPCard title="TapHip" desc="美国、台湾、香港、韩国" link="https://taphip.com/index.php" background="rgba(249, 252, 253, 1)" />
+</div>
+
+## 常用命令
+
+```bash
+# 更新
+apt update -y && apt install -y curl && apt install -y socat
+
+# 安装面板
+bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
+
+# 开放防火墙
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+iptables -I INPUT -p tcp --dport xxx -j ACCEPT
+```
+
