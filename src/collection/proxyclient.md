@@ -89,6 +89,12 @@ apt update -y && apt install -y curl && apt install -y socat
 # 安装面板
 bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
 
+# 测试流媒体解锁
+# IPV4
+bash <(curl -L -s check.unlock.media) -M 4
+# IPV6
+bash <(curl -L -s check.unlock.media) -M 6
+
 # 开放防火墙
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 iptables -I INPUT -p tcp --dport 443 -j ACCEPT
