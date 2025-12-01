@@ -1,6 +1,6 @@
 ---
 title: Windows系统相关
-icon: puzzle-piece
+icon: fa-brands fa-windows
 category:
   - Windows
 tag:
@@ -45,6 +45,8 @@ lastUpdated: false
 ::: tip [ZyperWin++](https://github.com/ZyperWave/ZyperWinOptimize)
 
 - [x] 系统优化
+
 - [x] 关闭系统安全中心
+
 :::
 

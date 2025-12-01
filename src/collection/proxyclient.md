@@ -10,7 +10,6 @@ lastUpdated: false
 ::: tip 提示
 
 整理网上常见的代理软件以及搜集一些代理常用的知识点。
-测速：https://lg.bagevm.net/
 
 :::
 

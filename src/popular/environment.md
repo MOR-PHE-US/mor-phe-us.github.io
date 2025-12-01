@@ -1,6 +1,6 @@
 ---
 title: 常见环境变量和基本配置
-icon: house-chimney-window
+icon: bezier-curve
 star: true
 category:
   - Windows

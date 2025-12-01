@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 import "dotenv/config";
 
 export default hopeTheme({
-  hostname: "https://mor-phe-us.github.io",
+  hostname: "https://suidx.com",
 
   author: {
     name: "Morpheus",
@@ -12,7 +12,7 @@ export default hopeTheme({
   },
 
   // logo: "https://s3.bmp.ovh/imgs/2025/10/15/53a2dd8eec9f8f09.png",
-  logo: "https://mor-phe-us.github.io/logo.svg",
+  logo: "logo.svg",
   repo: "MOR-PHE-US/mor-phe-us.github.io",
 
   docsDir: "src",
@@ -204,7 +204,7 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
     icon: {
-      assets: "fontawesome",
+      assets: "fontawesome-with-brands"
     },
     // 搜索框
     docsearch: {

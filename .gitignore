@@ -1,6 +1,6 @@
 .env
+deploy.sh
 node_modules/
-src/civil-servant
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
