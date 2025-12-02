@@ -6,7 +6,6 @@ tag:
   - ImmortalWrt
   - NAS
 date: 2023-07-22
-lastUpdated: false
 ---
 
 ::: tip 
@@ -40,3 +39,31 @@ ssh-keygen -t ed25519 -C "ImmortalWrt"
 chmod 600 /etc/dropbear/authorized_keys
 ```
 
+### 用到的软件
+
+**系统**
+
+- [分区扩容（luci-app-partexp）](https://github.com/sirpdboy/luci-app-partexp)
+- [应用过滤（luci-app-appfilter）]([OpenAppFilter](https://www.openappfilter.com/#/))
+
+**文件**
+
+- Dufs（luci-app-dufs）
+- 统一文件共享（luci-app-unishare）
+
+**iStore**
+
+- 系统便利工具（luci-app-systools）
+- 1Panel（istorepanel）
+- Lucky
+
+**流量分载**
+
+- [Turbo ACC（luci-app-turboacc）](https://github.com/chenmozhijin/turboacc)
+
+**管控**
+
+- AdBlock Fast（luci-app-adblock-fast）
+- [时间控制（luci-app-nft-timecontrol）](https://github.com/sirpdboy/luci-app-timecontrol)
+- [任务设置（luci-app-taskplan）](https://github.com/sirpdboy/luci-app-taskplan)
+- [高级卸载（luci-app-uninstall）](https://plugin.vumstar.com/download/luci-app-uninstall.run)
