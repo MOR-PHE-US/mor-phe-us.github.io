@@ -51,5 +51,5 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
-          repository-name: MOR-PHE-US/mor-phe-us.github.io         # ← **改成你的目标仓库**
-          token: ${{ secrets.TARGET_REPO_TOKEN }}       # 使用你的 PAT
+          repository-name: MOR-PHE-US/mor-phe-us.github.io
+          token: ${{ secrets.TARGET_REPO_TOKEN }}
