@@ -8,7 +8,7 @@ tag:
   - DirectX
   - Dism
 date: 2023-07-03
-lastUpdated: ture
+lastUpdated: true
 ---
 
 ::: tabs

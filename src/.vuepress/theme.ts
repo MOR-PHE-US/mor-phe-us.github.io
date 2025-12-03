@@ -192,6 +192,12 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
+    // 搜索框
+    docsearch: {
+      appId: "D0EDLIVJNY",
+      apiKey: "cbf220f5c48a78ce7b873c1a72975afa",
+      indexName: "suidx_com_d0edlivjny_pages",
+    },
     // 评论区
     comment: {
       provider: "Giscus",
@@ -205,12 +211,6 @@ export default hopeTheme({
     },
     icon: {
       assets: "fontawesome-with-brands"
-    },
-    // 搜索框
-    docsearch: {
-      appId: "CLS4HLPKDN",
-      apiKey: "b7d39f778a8c317cb6b6844021ae84ab",
-      indexName: "suidx_com_cls4hlpkdn_pages",
     },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {

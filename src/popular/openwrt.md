@@ -44,7 +44,7 @@ chmod 600 /etc/dropbear/authorized_keys
 **系统**
 
 - [分区扩容（luci-app-partexp）](https://github.com/sirpdboy/luci-app-partexp)
-- [应用过滤（luci-app-appfilter）]([OpenAppFilter](https://www.openappfilter.com/#/))
+- [应用过滤（luci-app-appfilter）](https://www.openappfilter.com/#/)
 
 **文件**
 
