@@ -15,11 +15,11 @@ lastUpdated: false
 
 :::
 
-# 小米ROM
+## 小米ROM
 
 [下载链接](https://xiaomirom.com/)
 
-# 常见原生ROM
+## 常见原生ROM
 
 [Lineageos](https://download.lineageos.org/changes)
 
@@ -31,14 +31,14 @@ lastUpdated: false
 
 [Evolution X](https://evolution-x.org/)
 
-# 常用Recovery
+## 常用Recovery
 
 - TWRP
 - OrangeFox
 
-# Fastboot常用命令
+## Fastboot常用命令
 
-## 查看
+### 查看
 
 ::: code-tabs
 
@@ -50,7 +50,7 @@ fastboot devices
 
 :::
 
-## 刷写
+### 刷写
 
 ::: code-tabs
 
@@ -74,7 +74,7 @@ fastboot boot fliename.img
 
 :::
 
-## 重启
+### 重启
 
 ::: code-tabs
 
@@ -92,7 +92,7 @@ fastboot reboot-bootloader
 
 :::
 
-## 刷机步骤
+### 刷机步骤
 
 ::: tabs
 

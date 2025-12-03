@@ -191,14 +191,20 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-
+    // 水印
+    watermark: {
+      enabled: true,
+      watermarkOptions: {
+        content: "suidx.com",
+      },
+    },
     // 搜索框
+    slimsearch: true,
     // docsearch: {
     //   appId: "D0EDLIVJNY",
     //   apiKey: "cbf220f5c48a78ce7b873c1a72975afa",
     //   indexName: "suidx_com_d0edlivjny_pages",
     // },
-    slimsearch: true,
     // 评论区
     comment: {
       provider: "Giscus",
