@@ -62,7 +62,7 @@ date: 2022-07-04
   <VPCard title="File Converter" desc="使用上下文菜单转换媒体文件" logo="https://file-converter.io/images/application-icon.png" link="https://file-converter.io/" background="rgba(249, 252, 253,1)" />
   <VPCard title="Thunderbird" desc="Mozilla 邮件客户端" logo="https://www.thunderbird.net/media/img/thunderbird/favicon.ico" link="https://www.thunderbird.net/zh-CN/thunderbird/all/" background="rgba(249, 252, 253, 1)" />
   <VPCard title="Windows轻松设置" desc="新系统快速设置" logo="https://www.microsoft.com/favicon.ico" link="https://bbs.pcbeta.com/viewthread-1972024-1-1.html" background="rgba(249, 252, 253, 1)" />
-  <VPCard title="图吧工具箱" desc="官方工具箱" logo="https://www.tubatool.com/favicon.ico" link="https://www.tubatool.com/" background="rgba(249, 252, 253, 1)" />
+  <VPCard title="图吧工具箱" desc="官方工具箱" logo="https://www.tubatool.com/images/logo.png" link="https://www.tubatool.com/" background="rgba(249, 252, 253, 1)" />
   <VPCard title="音乐内嵌歌词管理器" desc="52破解 jumpbull 制作的小工具" logo="https://avatar.52pojie.cn/data/avatar/000/70/30/02_avatar_middle.jpg" link="https://wwx.lanzoux.com/b01hxwx9g" background="rgba(249, 252, 253, 1)" />
 </div>
 
