@@ -14,7 +14,6 @@
   "devDependencies": {
     "@docsearch/css": "^4.3.2",
     "@vuepress/bundler-webpack": "2.0.0-rc.26",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.120",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.120",
     "flowchart.ts": "^3.0.1",
     "markdown-it-pangu": "^1.0.2",

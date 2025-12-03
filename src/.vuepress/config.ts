@@ -7,7 +7,13 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Morpheus",
   description: "Morpheus 的博客",
-
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "Morpheus",
+      description: "Morpheus 的博客",
+    },
+  },
   theme,
   head: [
     // ...

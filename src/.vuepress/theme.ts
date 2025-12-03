@@ -8,7 +8,7 @@ export default hopeTheme({
 
   author: {
     name: "Morpheus",
-    url: "https://github.com/MOR-PHE-US",
+    url: "https://suidx.com",
   },
 
   // logo: "https://s3.bmp.ovh/imgs/2025/10/15/53a2dd8eec9f8f09.png",
@@ -18,7 +18,7 @@ export default hopeTheme({
   docsDir: "src",
 
   // 打印按钮
-  print: false,
+  print: true,
 
   // 全屏按钮
   fullscreen: false,
@@ -96,7 +96,7 @@ export default hopeTheme({
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
+  hotReload: true,
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
@@ -193,11 +193,12 @@ export default hopeTheme({
     blog: true,
 
     // 搜索框
-    docsearch: {
-      appId: "D0EDLIVJNY",
-      apiKey: "cbf220f5c48a78ce7b873c1a72975afa",
-      indexName: "suidx_com_d0edlivjny_pages",
-    },
+    // docsearch: {
+    //   appId: "D0EDLIVJNY",
+    //   apiKey: "cbf220f5c48a78ce7b873c1a72975afa",
+    //   indexName: "suidx_com_d0edlivjny_pages",
+    // },
+    slimsearch: true,
     // 评论区
     comment: {
       provider: "Giscus",
@@ -210,7 +211,7 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
     icon: {
-      assets: "fontawesome-with-brands"
+      assets: "fontawesome-with-brands",
     },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
