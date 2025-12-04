@@ -8,7 +8,8 @@
     "docs:build": "vuepress-webpack build src",
     "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
     "docs:dev": "vuepress-webpack dev src",
-    "docs:update-package": "pnpm dlx vp-update"
+    "docs:update-package": "pnpm dlx vp-update",
+    "docs:deploy": "sh deploy.sh"
   },
   "devDependencies": {
     "@mathjax/src": "^4.0.0",
