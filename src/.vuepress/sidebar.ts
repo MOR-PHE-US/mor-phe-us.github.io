@@ -7,7 +7,7 @@ export default sidebar({
       text: "全部",
       icon: "newspaper",
       prefix: "article/",
-      link: "article/",
+      link: "/article/",
       children: "structure",
     },
     "intro",
@@ -17,7 +17,7 @@ export default sidebar({
     {
       text: "搜集",
       icon: "grip",
-      link: "collection/",
+      link: "/collection/",
       children: "structure",
     },
   ],
@@ -26,7 +26,7 @@ export default sidebar({
     {
       text: "日常",
       icon: "fire",
-      link: "popular/",
+      link: "/popular/",
       children: "structure",
     },
   ],
@@ -35,7 +35,7 @@ export default sidebar({
     {
       text: "技术",
       icon: "compass-drafting",
-      link: "technical/",
+      link: "/technical/",
       children: "structure",
     },
   ],
@@ -44,7 +44,7 @@ export default sidebar({
     {
       text: "一键脚本和工具",
       icon: "computer-mouse",
-      link: "one-click/",
+      link: "/one-click/",
       children: "structure",
     },
   ],
