@@ -17,7 +17,7 @@ lastUpdated: false
 
 @tab 1 启停/重启
 
-::: tip
+::: tip 启停/重启
 ```bash
 # 启动
 systemctl start docker
@@ -31,7 +31,7 @@ systemctl restart docker
 
 @tab 2 开机自启
 
-::: tip
+::: tip 开机自启
 
 ```bash
 # 设置开机自启
@@ -43,7 +43,7 @@ systemctl disable docker
 
 @tab 3 查看状态
 
-::: tip
+::: tip 查看状态
 
 ```bash
 systemctl status docker
@@ -51,7 +51,7 @@ systemctl status docker
 
 @tab 4 查看版本信息
 
-::: tip
+::: tip 查看版本信息
 
 ```bash
 docker version
@@ -59,7 +59,7 @@ docker version
 
 @tab 5 显示信息
 
-::: tip
+::: tip 显示信息
 
 ```bash
 docker info
@@ -67,7 +67,7 @@ docker info
 
 @tab 6 查看帮助
 
-::: tip
+::: tip 查看帮助
 
 ```bash
 docker --help
@@ -81,7 +81,7 @@ docker --help
 
 @tab 1 搜索镜像
 
-::: tip
+::: tip 搜索镜像
 
 ```bash
 # docker search [镜像名]
@@ -90,7 +90,7 @@ docker search nginx
 
 @tab 2 下载镜像
 
-::: tip
+::: tip 下载镜像
 
 ```bash
 docker pull [镜像名]:[标签]
@@ -100,7 +100,7 @@ docker pull nginx:latest
 
 @tab 3 列出本地镜像
 
-::: tip
+::: tip 列出本地镜像
 
 ```bash
 docker images
@@ -109,7 +109,7 @@ docker images
 
 @tab 4 删除镜像
 
-::: tip
+::: tip 删除镜像
 
 ```bash
 docker rmi [镜像ID或镜像名]
@@ -124,7 +124,7 @@ docker rmi -f $(docker images -aq)
 
 @tab 5 构建镜像
 
-::: tip
+::: tip 构建镜像
 
 ```bash
 docker build -t [镜像名]:[标签] [Dockerfile路径]
@@ -134,7 +134,7 @@ docker build -t nginx:1.0 ./
 
 @tab 6 导入镜像
 
-::: tip
+::: tip 导入镜像
 
 ```bash
 docker load -i 镜像保存文件位置
@@ -143,7 +143,7 @@ docker load -i /data/nginx.tar
 
 @tab 7 保存镜像
 
-::: tip
+::: tip 保存镜像
 
 ```bash
 docker save -o 保存目标文件 镜像名
@@ -153,7 +153,7 @@ docker save -o /data/nginx.tar nginx
 
 @tab 8 给镜像打标签
 
-::: tip
+::: tip 给镜像打标签
 
 ```bash
 docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
@@ -169,7 +169,7 @@ docker tag nginx 10.10.10.200/software/nginx:1.26
 
 @tab 1 创建并运行
 
-::: tip
+::: tip 创建并运行
 
 ```bash
 docker run [选项] [镜像名]
@@ -188,7 +188,7 @@ docker run -d -p 8080:80 --name mynginx nginx
 
 @tab 2 查看运行中的容器
 
-::: tip
+::: tip 查看运行中的容器
 
 ```bash
 docker ps
@@ -197,7 +197,7 @@ docker ps
 
 @tab 3 查看所有容器
 
-::: tip
+::: tip 查看所有容器
 
 ```bash
 docker ps -a
@@ -205,7 +205,7 @@ docker ps -a
 
 @tab 4 启停容器
 
-::: tip
+::: tip 启停容器
 
 ```bash
 # 启动容器
@@ -217,7 +217,7 @@ docker stop [容器ID或容器名]
 
 @tab 5 重启
 
-::: tip
+::: tip 重启
 
 ```bash
 docker restart [容器ID或容器名]
@@ -225,7 +225,7 @@ docker restart [容器ID或容器名]
 
 @tab 6 删除
 
-::: tip
+::: tip 删除
 
 ```bash
 docker rm [容器ID或容器名]
@@ -234,7 +234,7 @@ docker rm [容器ID或容器名]
 
 @tab 7 进入
 
-::: tip
+::: tip 进入
 
 ```bash
 docker exec -it [容器ID或容器名] /bin/bash
@@ -243,7 +243,7 @@ docker exec -it mynginx /bin/bash
 
 @tab 8 查看日志
 
-::: tip
+::: tip 查看日志
 
 ```bash
 docker logs [容器ID或容器名]
@@ -256,7 +256,7 @@ docker logs -f --tail 20 mynginx
 
 @tab 9 查看容器内部细节
 
-::: tip
+::: tip 查看容器内部细节
 
 ```bash
 docker inspect [容器ID或容器名]
@@ -270,7 +270,7 @@ docker inspect [容器ID或容器名]
 
 @tab 1 创建数据卷
 
-::: tip
+::: tip 创建数据卷
 
 ```bash
 docker volume create [卷名]
@@ -279,7 +279,7 @@ docker volume create data
 
 @tab 2 查看数据卷
 
-::: tip
+::: tip 查看数据卷
 
 ```bash
 docker volume ls
@@ -287,7 +287,7 @@ docker volume ls
 
 @tab 3 删除数据卷
 
-::: tip
+::: tip 删除数据卷
 
 ```bash
 docker volume rm [卷名]
@@ -296,7 +296,7 @@ docker volume rm data
 
 @tab 4 查看数据卷详情
 
-::: tip
+::: tip 查看数据卷详情
 
 ```bash
 docker volume inspect [卷名]
@@ -310,7 +310,7 @@ docker volume inspect [卷名]
 
 @tab 1 创建网络
 
-::: tip
+::: tip 创建网络
 
 ```bash
 docker network create [网络名]
@@ -318,7 +318,7 @@ docker network create [网络名]
 
 @tab 2 查看网络
 
-::: tip
+::: tip 查看网络
 
 ```bash
 docker network ls
@@ -326,7 +326,7 @@ docker network ls
 
 @tab 3 查看网络详情
 
-::: tip
+::: tip 查看网络详情
 
 ```bash
 docker network inspect [网络名]
@@ -334,7 +334,7 @@ docker network inspect [网络名]
 
 @tab 4 删除网络
 
-::: tip
+::: tip 删除网络
 
 ```bash
 docker network rm [网络名]
@@ -342,7 +342,7 @@ docker network rm [网络名]
 
 @tab 5 将容器连接到网络
 
-::: tip
+::: tip 将容器连接到网络
 
 ```bash
 docker network connect [网络名] [容器名或容器ID]
@@ -350,7 +350,7 @@ docker network connect [网络名] [容器名或容器ID]
 
 @tab 6 将容器从网络断开
 
-::: tip
+::: tip 将容器从网络断开
 
 ```bash
 docker network disconnect [网络名] [容器名或容器ID]
@@ -364,7 +364,7 @@ docker network disconnect [网络名] [容器名或容器ID]
 
 @tab 1 启动服务
 
-::: tip
+::: tip 启动服务
 
 ```bash
 docker-compose up
@@ -375,7 +375,7 @@ docker-compose up -d
 
 @tab 2 停止服务
 
-::: tip
+::: tip 停止服务
 
 ```bash
 docker-compose down
@@ -384,7 +384,7 @@ docker-compose down
 
 @tab 3 构建或重建服务
 
-::: tip
+::: tip 构建或重建服务
 
 ```bash
 docker-compose build
@@ -392,7 +392,7 @@ docker-compose build
 
 @tab 4 查看服务状态
 
-::: tip
+::: tip 查看服务状态
 
 ```bash
 docker-compose ps
@@ -400,7 +400,7 @@ docker-compose ps
 
 @tab 5 查看服务日志
 
-::: tip
+::: tip 查看服务日志
 
 ```bash
 docker-compose logs [服务名]

@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
+
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import "dotenv/config";
 
 export default hopeTheme({
   hostname: "https://suidx.com",
@@ -11,13 +11,13 @@ export default hopeTheme({
     url: "https://suidx.com",
   },
 
-  // logo: "https://s3.bmp.ovh/imgs/2025/10/15/53a2dd8eec9f8f09.png",
   logo: "logo.svg",
+
   repo: "MOR-PHE-US/mor-phe-us.github.io",
 
   docsDir: "src",
 
-  // 打印按钮
+    // 打印按钮
   print: true,
 
   // 全屏按钮
@@ -33,13 +33,13 @@ export default hopeTheme({
   },
   // 侧边栏
   sidebar,
+
   // 页脚
   footer: "Morpheus",
-  displayFooter: true,
+  displayFooter: false,
 
   // 博客相关
   blog: {
-    // description: "一个前端开发者",
     intro: "/intro.html",
     // medias: {
     //   Baidu: "https://example.com",
@@ -89,14 +89,10 @@ export default hopeTheme({
       },
     },
   },
-
-  // 多语言配置
-  // metaLocales: {
-  //   editLink: "在 GitHub 上编辑此页",
-  // },
+  // 在 GitHub 上编辑
   editLink: false,
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  hotReload: true,
+  // hotReload: true,
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
@@ -156,10 +152,11 @@ export default hopeTheme({
     // 取消注释它们如果你需要数学公式 TeX 支持
     math: {
       // 启用前安装 katex
-      type: "katex",
+      // type: "katex",
       // 或者安装 mathjax-full
-      // type: "mathjax",
+      type: "mathjax",
     },
+
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
     // revealjs: {
@@ -173,6 +170,9 @@ export default hopeTheme({
 
     // 在启用之前安装 echarts
     // echarts: true,
+
+    // 在启用之前安装 flowchart.ts
+    // flowchart: true,
 
     // 在启用之前安装 mermaid
     // mermaid: true,
@@ -198,13 +198,27 @@ export default hopeTheme({
         content: "suidx.com",
       },
     },
-    // 搜索框
-    slimsearch: true,
-    // docsearch: {
-    //   appId: "D0EDLIVJNY",
-    //   apiKey: "cbf220f5c48a78ce7b873c1a72975afa",
-    //   indexName: "suidx_com_d0edlivjny_pages",
+    // 启用之前需安装 @waline/client
+    // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://waline-comment.vuejs.press",
     // },
+
+    components: {
+      components: ["Badge", "VPCard"],
+    },
+
+    icon: {
+      assets: "fontawesome-with-brands",
+    },
+    // 搜索框
+    // slimsearch: true,
+    docsearch: {
+      appId: "D0EDLIVJNY",
+      apiKey: "cbf220f5c48a78ce7b873c1a72975afa",
+      indexName: "suidx_com_d0edlivjny_pages",
+    },
     // 评论区
     comment: {
       provider: "Giscus",
@@ -212,12 +226,6 @@ export default hopeTheme({
       repoId: "R_kgDOQCZfEg",
       category: "Announcements",
       categoryId: "DIC_kwDOQCZfEs4Cwqs_",
-    },
-    components: {
-      components: ["Badge", "VPCard"],
-    },
-    icon: {
-      assets: "fontawesome-with-brands",
     },
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {

@@ -1,7 +1,6 @@
 ---
 home: true
-title: 主页
-navbar: false
+title: 博客主页
 icon: home
 heroText: 不知的梦✨
 tagline: ✨永远热爱，永远热泪盈眶。

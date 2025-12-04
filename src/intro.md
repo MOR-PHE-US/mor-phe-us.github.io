@@ -1,9 +1,8 @@
 ---
 icon: circle-info
-cover: /assets/images/cover3.jpg
-lastUpdated: false
+cover: GreyBeetle-light.png
 ---
 
-# 关于
+# 介绍页
 
-个人介绍和档案
+个人介绍和档案。

@@ -3,10 +3,6 @@ import panguPlugin from "markdown-it-pangu";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
-  lang: "zh-CN",
-  title: "Morpheus",
-  description: "Morpheus 的博客",
   locales: {
     "/": {
       lang: "zh-CN",
@@ -31,7 +27,7 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
-  ],
+  ],  
   // 中英文自动空格
   extendsMarkdown: (md) => {
     md.use(panguPlugin);
