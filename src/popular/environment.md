@@ -29,45 +29,49 @@ lastUpdated: false
 
 [nvm下载](https://www.nvmnode.com/guide/download.html#latest-release)
 
-::: tip `%NVM_HOME%` 【nvm环境变量】
+::: tip nvm及node配置
 
-`[\path\to]\nvm`
+- `%NVM_HOME%` 【nvm环境变量】
 
-::: tip `%NVM_SYMLINK%` 【node环境变量】
+  `[\path\to]\nvm`
 
-`[\path\to]\nvm\nodejs`
+- `%NVM_SYMLINK%` 【node环境变量】
 
-::: tip `%NODE_PATH%`【npm环境变量】
+  `[\path\to]\nvm\nodejs`
 
-`[\path\to]\nvm\nodejs\node_global`
+- `%NODE_PATH%`【npm环境变量】
 
-::: tip settings.txt 【nvm配置文件】
+  `[\path\to]\nvm\nodejs\node_global`
 
-```yaml
-root: [\path\to]\nvm
-path: [\path\to]\nvm\nodejs
-node_mirror: https://npmmirror.com/mirrors/node/
-npm_mirror: https://npmmirror.com/mirrors/npm/
-```
+- settings.txt 【nvm配置文件】
 
-::: tip npm 【设置node全局和缓存路径命令】
+  ```yaml
+  root: [\path\to]\nvm
+  path: [\path\to]\nvm\nodejs
+  node_mirror: https://npmmirror.com/mirrors/node/
+  npm_mirror: https://npmmirror.com/mirrors/npm/
+  ```
 
-```bash
-npm config set prefix "[\path\to]\node_global"
-npm config set cache "[\path\to]\node_cache"
-```
+- npm 【设置node全局和缓存路径命令】
 
-::: tip 【管理员：允许第三方软件运行node脚本】
+  ```bash
+  npm config set prefix "[\path\to]\node_global"
+  npm config set cache "[\path\to]\node_cache"
+  ```
 
-```shell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
+- 【管理员：允许第三方软件运行node脚本】
 
-::: tip 指定`.pnpm-store`存储路径【需要先安装pnpm】
 
-```bash
-pnpm config set store-dir [/path/to/].pnpm-store
-```
+  ```shell
+  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+  ```
+
+- 指定`.pnpm-store`存储路径【需要先安装pnpm】
+
+
+  ```bash
+  pnpm config set store-dir [/path/to/].pnpm-store
+  ```
 
 @tab Python
 
@@ -79,13 +83,15 @@ pnpm config set store-dir [/path/to/].pnpm-store
 
 Windows embeddable package：缺失很多东西，不应作为环境配置
 
-::: tip Python 【Python环境变量】
+::: tip Python配置
 
-`[\path\to]\Python`
+- Python 【Python环境变量】
 
-::: tip Scripts 【pip等脚本环境变量】
+  `[\path\to]\Python`
 
-`[\path\to]\Python\Scripts`
+- Scripts 【pip等脚本环境变量】
+
+  `[\path\to]\Python\Scripts`
 
 @tab adb
 
@@ -97,13 +103,15 @@ Windows embeddable package：缺失很多东西，不应作为环境配置
 
 [下载适用于 Linux 的 SDK Platform-Tools](https://dl.google.com/android/repository/platform-tools-latest-linux.zip?hl=zh-cn)
 
-::: tip Python 【adb环境变量】
+::: tip  adb配置
 
-`[\path\to]\platform-tools`
+- platform-tools【adb环境变量】
 
-::: tip payload-dumper-go 【提取payload.bin中的镜像文件】
+  `[\path\to]\platform-tools`
 
-[GITHUB下载地址](https://github.com/ssut/payload-dumper-go/releases) 
+- payload-dumper-go 【提取payload.bin中的镜像文件】
+
+  [GITHUB下载地址](https://github.com/ssut/payload-dumper-go/releases) 
 
 @tab Java
 
@@ -111,18 +119,107 @@ Windows embeddable package：缺失很多东西，不应作为环境配置
 
 [企业版下载](https://www.oracle.com/cn/java/technologies/downloads/)【需要登陆账号】
 
-::: tip `%JAVA_HOME%`【系统变量】
+::: tip Java配置
 
-`[\path\to]\jdk`
+- `%JAVA_HOME%`【系统变量】
 
-::: tip Path中加上bin路径
+  `[\path\to]\jdk`
 
-`%JAVA_HOME%\bin`
+- Path中加上bin路径
+
+  `%JAVA_HOME%\bin`
 
 @tab Git
 
-::: tip 生成SSH公钥
+[Git - Install for Windows](https://git-scm.com/install/windows)
 
-```bash
-ssh-keygen -t rsa
-```
+::: tip 其他安装
+
+- MacOS
+
+  ```bash
+  # Homebrew
+  brew install git
+  
+  # MacPorts
+  sudo port install git
+  
+  # Xcode Command Line Tools
+  xcode-select --install
+  
+  # Installing git-gui
+  brew install git-gui
+  
+  ssh-keygen -t rsa
+  ```
+
+- Linux
+
+  ```bash
+  # Debian/Ubuntu
+  apt-get install git
+  # 对于 Ubuntu，该 PPA 提供最新稳定的上游 Git 版本
+  add-apt-repository ppa:git-core/ppa
+  apt update
+  apt install git
+  
+  # Fedora
+  yum install git # (up to Fedora 21)
+  dnf install git # (Fedora 22 and later)
+  
+  # Gentoo
+  emerge --ask --verbose dev-vcs/git
+  
+  # Arch Linux
+  pacman -S git
+  
+  # openSUSE
+  zypper install git
+  
+  # Mageia
+  urpmi git
+  
+  # Nix/NixOS
+  nix-env -i git
+  
+  # FreeBSD
+  pkg install git
+  
+  # Solaris 9/10/11 (OpenCSW)
+  pkgutil -i git
+  
+  # Solaris 11 Express, OpenIndiana
+  pkg install developer/versioning/git
+  
+  # OpenBSD
+  pkg_add git
+  
+  # Alpine
+  apk add git
+  
+  # Slitaz
+  tazpkg get-install git
+  ```
+
+
+
+@tab C++
+
+- Pre-built Toolchains
+
+  [Downloads](https://www.mingw-w64.org/downloads/)
+
+  [MinGW-W64](https://github.com/niXman/mingw-builds-binaries/releases)
+
+  [Cygwin](https://cygwin.com/install.html)
+
+- Ubuntu / Debian
+
+  ```bash
+  sudo apt update
+  sudo apt install build-essential
+  ```
+
+  
+
+:::

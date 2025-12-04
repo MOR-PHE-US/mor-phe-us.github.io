@@ -1,5 +1,5 @@
 ---
-title: 常用 Linux 基础操作
+title: Linux 常用基础操作
 icon: fa-brands fa-linux
 category:
   - Linux
@@ -123,10 +123,21 @@ sudo yum remove package
 
 ### 用户与权限
 
+- 读=4，写=2，执行=1：
+
+  rwx = 4+2+1 = **7**
+
+  rw- = 4+2 = **6**
+
+  r-x = 4+1 = **5**
+
+  r-- = 4 = **4**
+
 ```bash
-sudo command        # 使用管理员权限
-chmod 755 file      # 修改权限
+sudo command           # 使用管理员权限
+chmod 755 file         # 修改权限（user group other）
 chown user:group file  # 修改所有者
+cat /etc/passwd        # 查看用户
 ```
 
 ### 查看系统状态
