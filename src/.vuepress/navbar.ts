@@ -26,4 +26,15 @@ export default navbar([
     icon: "computer-mouse",
     link: "/one-click/",
   },
+  {
+    text: "其他",
+    icon: "toolbox",
+    children:[{
+      text:"IT工具箱",
+      link:"https://tools.suidx.com",
+    },{
+      text:"订阅转换",
+      link:"https://api.suidx.com",
+    }]
+  }
 ]);

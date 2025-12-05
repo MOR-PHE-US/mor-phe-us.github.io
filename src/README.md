@@ -2,7 +2,7 @@
 home: true
 title: 博客主页
 icon: home
-heroText: 不知的梦✨
+heroText: 什么梦✨
 tagline: ✨永远热爱，永远热泪盈眶。
 heroFullScreen: true
 bgImage: GreyBeetle-light.png
