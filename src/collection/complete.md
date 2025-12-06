@@ -2,6 +2,8 @@
 title: 互联网搜集
 icon: grip
 date: 2022-07-04
+category:
+  - 收集
 ---
 
 ::: tip 提示

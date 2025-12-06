@@ -2,6 +2,11 @@
 title: AI提示词
 icon: brain
 date: 2023-01-06
+category:
+  - 收集
+tag:
+  - ai
+  - 提示词
 ---
 
 在 AI 世界中，**提示词**（Prompt）是与 AI 沟通的桥梁。精准的关键词能让 ChatGPT、Claude、Gemini、Midjourney 等模型事半功倍。

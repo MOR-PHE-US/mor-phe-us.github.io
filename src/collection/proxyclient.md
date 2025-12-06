@@ -1,6 +1,8 @@
 ---
 title: 代理软件搜集
 icon: paper-plane
+category:
+  - 收集
 tag:
   - 代理
 date: 2019-08-07
