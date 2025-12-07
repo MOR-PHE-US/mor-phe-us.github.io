@@ -14,7 +14,7 @@ export default defineUserConfig({
   head: [
     // ...
 
-    // 导入相应链接
+    // 导入字体链接
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
       "link",
@@ -27,7 +27,14 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
-  ],  
+    // 导入看版娘
+    [
+      "script",
+      {
+        src: "https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0/dist/autoload.js",
+      },
+    ],
+  ],
   // 中英文自动空格
   extendsMarkdown: (md) => {
     md.use(panguPlugin);
