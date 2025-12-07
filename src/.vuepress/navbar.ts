@@ -33,11 +33,11 @@ export default navbar([
       text:"IT工具箱",
       link:"https://tools.suidx.com",
     },{
-      text:"订阅转换",
-      link:"https://api.suidx.com",
-    },{
       text:"DrawIO",
       link:"https://drawio.suidx.com/?lang=zh",
+    },{
+      text:"订阅转换",
+      link:"https://api.suidx.com",
     }]
   }
 ]);
