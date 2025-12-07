@@ -35,6 +35,9 @@ export default navbar([
     },{
       text:"订阅转换",
       link:"https://api.suidx.com",
+    },{
+      text:"DrawIO",
+      link:"https://drawio.suidx.com/",
     }]
   }
 ]);
