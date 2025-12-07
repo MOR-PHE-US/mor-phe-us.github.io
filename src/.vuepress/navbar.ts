@@ -37,7 +37,7 @@ export default navbar([
       link:"https://api.suidx.com",
     },{
       text:"DrawIO",
-      link:"https://drawio.suidx.com/",
+      link:"https://drawio.suidx.com/?lang=zh",
     }]
   }
 ]);
