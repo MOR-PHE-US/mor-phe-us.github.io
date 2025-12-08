@@ -103,7 +103,6 @@ sudo rc-update del iptables
 ## 爆破常用
 
 ```sh
-
 # 端口扫描:
 sudo nmap -sT --min-rate 10000 -p- 127.0.0.1
 sudo nmap -p- -Pn --min-rate 10000 127.0.0.1
