@@ -30,6 +30,9 @@ export default navbar([
     text: "其他",
     icon: "toolbox",
     children:[{
+      text:"CyberChef",
+      link:"https://chef.suidx.com",
+    },{
       text:"IT工具箱",
       link:"https://tools.suidx.com",
     },{
