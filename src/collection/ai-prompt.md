@@ -1244,3 +1244,7 @@ tag:
 ```
 
 :::
+
+
+> 参考资料
+> [prompts.chat](https://prompts.chat/)
