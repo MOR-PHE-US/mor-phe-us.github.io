@@ -1,0 +1,41 @@
+
+.script-box[data-v-627dcde1] {
+  position: relative;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--vp-c-bg-soft);
+}
+textarea[data-v-627dcde1] {
+  width: 100%;
+  height: 220px;
+  resize: none;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg);
+}
+.actions[data-v-627dcde1] {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+button[data-v-627dcde1] {
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg);
+}
+.toast[data-v-627dcde1] {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  background: var(--vp-c-brand);
+  color: #000000;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
